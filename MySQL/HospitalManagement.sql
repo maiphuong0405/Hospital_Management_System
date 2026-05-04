@@ -105,16 +105,16 @@ INSERT INTO Doctors (DoctorName, DepartmentID, Specialty) VALUES
 
 -- Dữ liệu Patients (10 bệnh nhân)
 INSERT INTO Patients (PatientName, DateOfBirth, Gender, Address, PhoneNumber) VALUES
-('Tran Van A', '1985-04-12', 'Male', 'Hanoi', '0901234567'),
-('Nguyen Thi B', '1992-08-25', 'Female', 'Hanoi', '0912345678'),
-('Le Van C', '1978-11-03', 'Male', 'Hai Phong', '0923456789'),
-('Pham Ngoc D', '2005-01-15', 'Female', 'Da Nang', '0934567890'),
-('Hoang Van E', '1965-07-30', 'Male', 'HCMC', '0945678901'),
-('Vu Thi F', '1999-02-14', 'Female', 'Can Tho', '0956789012'),
-('Do Minh G', '1988-09-09', 'Male', 'Hue', '0967890123'),
-('Bui Van H', '1975-12-20', 'Male', 'Quang Ninh', '0978901234'),
-('Dang Thi I', '2010-05-05', 'Female', 'Nam Dinh', '0989012345'),
-('Ngo Van K', '1995-10-10', 'Male', 'Thanh Hoa', '0990123456');
+('Tran Van An', '1985-04-12', 'Male', 'Hanoi', '0901234567'),
+('Nguyen Thi Bau', '1992-08-25', 'Female', 'Hanoi', '0912345678'),
+('Le Van Cuong', '1978-11-03', 'Male', 'Hai Phong', '0923456789'),
+('Pham Ngoc Dung', '2005-01-15', 'Female', 'Da Nang', '0934567890'),
+('Hoang Van Duong', '1965-07-30', 'Male', 'HCMC', '0945678901'),
+('Vu Thi Giang', '1999-02-14', 'Female', 'Can Tho', '0956789012'),
+('Do Minh Ha', '1988-09-09', 'Male', 'Hue', '0967890123'),
+('Bui Van Hien', '1975-12-20', 'Male', 'Quang Ninh', '0978901234'),
+('Dang Thi Kha', '2010-05-05', 'Female', 'Nam Dinh', '0989012345'),
+('Ngo Van Khanh', '1995-10-10', 'Male', 'Thanh Hoa', '0990123456');
 
 -- Dữ liệu Appointments (10 lịch hẹn)
 INSERT INTO Appointments (DoctorID, PatientID, AppointmentDate, AppointmentTime, Status) VALUES
